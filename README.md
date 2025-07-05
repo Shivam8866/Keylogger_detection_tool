@@ -48,25 +48,7 @@ Scanning running processes...
 Safe Process Whitelist
 The following processes are considered safe by default:
 
-explorer.exe
-
-svchost.exe
-
-chrome.exe
-
-firefox.exe
-
-python.exe
-
-notepad.exe
-
-cmd.exe
-
-conhost.exe
-
-System Idle Process
-
-System
+explorer.exe, svchost.exe, chrome.exe, firefox.exe, python.exe, notepad.exe, cmd.exe, conhost.exe, System Idle Process, System
 
 You can customize this whitelist by editing the self.safe_processes set inside the Python script.
 
