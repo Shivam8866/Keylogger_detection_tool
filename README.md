@@ -18,16 +18,14 @@ A lightweight Python GUI application to help identify potentially suspicious or 
 
 Install the required dependency using pip:
 
-```bash
+```
 pip install psutil
 ```
 Usage
 Run the tool using:
-
-bash
-Copy
-Edit
+```
 python keylogger_detector.py
+```
 Once launched:
 
 Click "Start Scan"
@@ -35,10 +33,8 @@ Click "Start Scan"
 The tool will list all suspicious processes not found in the whitelist or running from risky directories.
 
 Review the output to investigate further.
-
- Sample Output
-Copy
-Edit
+```
+Sample Output
 Scanning running processes...
 
 [!] Suspicious process:
@@ -48,8 +44,7 @@ Scanning running processes...
 [!] Suspicious process:
     Name: someunknown.exe
     Path: N/A
-
-No suspicious processes found.
+```
 Safe Process Whitelist
 The following processes are considered safe by default:
 
