@@ -15,16 +15,19 @@ A lightweight Python GUI application to help identify potentially suspicious or 
 
 - Python 3.x
 - `psutil` library
+- `tkinter` (usually pre-installed with Python on most systems)
 
-Install the required dependency using pip:
+> If `tkinter` is not available, install it using your system's package manager:
+> - For Ubuntu/Debian:
+>   ```
+>   sudo apt-get install python3-tk
+>   ```
+> - For Windows: Tkinter comes pre-installed with Python.
+
+Install required Python package:
 
 ```
 pip install psutil
-```
-Usage
-Run the tool using:
-```
-python keylogger_detector.py
 ```
 Once launched:
 
