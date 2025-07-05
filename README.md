@@ -20,6 +20,7 @@ Install the required dependency using pip:
 
 ```bash
 pip install psutil
+```
 Usage
 Run the tool using:
 
